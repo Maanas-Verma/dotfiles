@@ -70,12 +70,17 @@ current_time() {
   echo "%{$fg_bold[yellow]%}$(date '+%H:%M:%S')%{$reset_color%} \033[0m"
 }
 
-export PROMPT=$'\n$(battery_status)› $(current_time) $(directory_name) $(git_dirty)$(need_push)\n› '
+separator_line() {
+  print -P "%{$fg[244]%}$(printf '%*s\n' "$(tput cols)" '' | tr ' ' '-')%{$reset_color%}"
+}
+
+export PROMPT=$'$(battery_status)› $(current_time) $(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }
 
 precmd() {
+  separator_line
   title "zsh" "%m" "%55<...<%~"
   set_prompt
 }
