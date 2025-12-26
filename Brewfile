@@ -10,6 +10,8 @@ brew 'spaceman-diff'
 brew 'wget'
 brew 'yt-dlp'
 brew 'lla'
+brew 'zsh-autosuggestions'
+brew 'vim'
 
 cask 'ghostty'
 cask 'notion-calendar'
