@@ -51,7 +51,7 @@ need_push () {
 }
 
 directory_name() {
-  echo "%{$fg_bold[cyan]%}%1/%\/%{$reset_color%}"
+  echo "%{$fg_bold[cyan]%}%~%{$reset_color%}"
 }
 
 battery_status() {
@@ -66,7 +66,11 @@ battery_status() {
   fi
 }
 
-export PROMPT=$'\n$(battery_status)in $(directory_name) $(git_dirty)$(need_push)\n› '
+current_time() {
+  echo "%{$fg_bold[yellow]%}$(date '+%H:%M:%S')%{$reset_color%} \033[0m"
+}
+
+export PROMPT=$'\n$(battery_status)› $(current_time) $(directory_name) $(git_dirty)$(need_push)\n› '
 set_prompt () {
   export RPROMPT="%{$fg_bold[cyan]%}%{$reset_color%}"
 }

@@ -1,10 +1,14 @@
-# grc overides for ls
-#   Made possible through contributions from generous benefactors like
-#   `brew install coreutils`
-if $(gls &>/dev/null)
-then
-  alias ls="gls -F --color"
-  alias l="gls -lAh --color"
-  alias ll="gls -l --color"
-  alias la='gls -A --color'
+# lla overides for ls
+#   using a beautiful lib writtern in rust
+#   https://github.com/chaqchase/lla
+#   `brew install lla`
+if lla &>/dev/null; then
+  alias ls="lla -g"
+  alias ltree="lla -t -d 3"
+  alias ltable="lla -T"
+  alias la='lla -l'
+  alias lgit='lla -G'
+  alias ltimeline='lla --timeline'
+  alias lstorage='lla -S'
+  alias lfuzzy='lla --fuzzy'
 fi
