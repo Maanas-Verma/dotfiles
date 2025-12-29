@@ -12,6 +12,7 @@ brew 'yt-dlp'
 brew 'lla'
 brew 'zsh-autosuggestions'
 brew 'vim'
+brew 'zoxide
 
 cask 'ghostty'
 cask 'notion-calendar'
