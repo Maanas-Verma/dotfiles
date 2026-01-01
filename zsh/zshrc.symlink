@@ -40,3 +40,6 @@ done
 
 unset config_files
 export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/maanas/.antigravity/antigravity/bin:$PATH"
