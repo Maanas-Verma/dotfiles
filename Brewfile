@@ -17,6 +17,8 @@ brew 'pyenv'
 brew 'go'
 brew 'bun'
 brew 'nvm'
+brew 'ollama'
+brew 'poppler'
 
 cask 'ghostty'
 cask 'notion-calendar'
