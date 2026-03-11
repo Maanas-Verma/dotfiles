@@ -43,3 +43,9 @@ export PATH="/opt/homebrew/opt/postgresql@17/bin:$PATH"
 
 # Added by Antigravity
 export PATH="/Users/maanas/.antigravity/antigravity/bin:$PATH"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/Users/maanas/.lmstudio/bin"
+# End of LM Studio CLI section
+export PATH="/Users/maanas/.bun/bin:$PATH"
+
