@@ -49,3 +49,9 @@ export PATH="$PATH:/Users/maanas/.lmstudio/bin"
 # End of LM Studio CLI section
 export PATH="/Users/maanas/.bun/bin:$PATH"
 
+
+# Added by Antigravity IDE
+export PATH="/Users/maanas/.antigravity-ide/antigravity-ide/bin:$PATH"
+
+# Added by MiniMax Agent
+export PATH="/Users/maanas/.mavis/bin:$PATH"
