@@ -1,0 +1,17 @@
+{
+    "files.autoSave": "afterDelay",
+    "cSpell.userWords": [
+        "COOLDOWN",
+        "ollama",
+        "unvalidated"
+    ],
+    "update.mode": "manual",
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.colorTheme": "Dark Modern",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.defaultProfile.osx": "zsh"
+}
