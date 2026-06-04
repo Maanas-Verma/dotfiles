@@ -13,5 +13,6 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
     "terminal.integrated.fontSize": 12,
-    "terminal.integrated.defaultProfile.osx": "zsh"
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "git.autofetch": true
 }
