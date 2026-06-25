@@ -58,3 +58,9 @@ export PATH="/Users/maanas/.mavis/bin:$PATH"
 
 # Hermes Agent — ensure ~/.local/bin is on PATH
 export PATH="$HOME/.local/bin:$PATH"
+
+# Added by Devin
+export PATH="/Users/maanas/.codeium/windsurf/bin:$PATH"
+
+# Pi
+export PATH="/Users/maanas/.hermes/node/bin:$PATH"

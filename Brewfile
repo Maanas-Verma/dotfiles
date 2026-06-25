@@ -33,6 +33,7 @@ brew 'python-tk@3.11'
 brew 'ripgrep'
 brew 'gnupg'
 brew 'pass'
+brew 'git-delta'
 
 cask 'ghostty'
 cask 'notion-calendar'
